@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\appwarp\appwarp.cs">
+    <Files>
+      <File FileName="..\AppWarp_WP7_SDK\APPWARP_CSHARP_SDK\APPWARP_CSHARP_SDK\NotifyListener.cs" Line="1" Column="1" />
+      <File FileName="..\AppWarp_WP7_SDK\APPWARP_CSHARP_SDK\APPWARP_CSHARP_SDK\MoveEvent.cs" Line="1" Column="1" />
+      <File FileName="C:\Users\Suyash\Documents\UnityAppWarpPropertiesSample\Assets\appwarp.cs" Line="1" Column="1" />
+      <File FileName="C:\Users\Suyash\Documents\UnityAppWarpPropertiesSample\Assets\Listener.cs" Line="1" Column="1" />
+      <File FileName="Assets\appwarp\appwarp.cs" Line="20" Column="33" />
+      <File FileName="Assets\appwarp\Listener.cs" Line="289" Column="67" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

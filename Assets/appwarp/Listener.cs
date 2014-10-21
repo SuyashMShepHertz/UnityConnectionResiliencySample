@@ -221,6 +221,10 @@ namespace AssemblyCSharp
 		public void onSendUpdateDone (byte result)
 		{
 		}
+
+		public void onSendPrivateUpdateDone (byte result)
+		{
+		}
 		
 		//NotifyListener
 		public void onRoomCreated (RoomData eventObj)
@@ -281,6 +285,10 @@ namespace AssemblyCSharp
 			m_apppwarp.onBytes(eventObj.getUpdate());
 			//Log("isUDP " + eventObj.getIsUdp());
 		}
+
+		public void onPrivateUpdateReceived(string sender, byte[] update, Boolean isUDP)
+		{
+		}
 		
 		public void onUserChangeRoomProperty(RoomData roomData, string sender, Dictionary<String, System.Object> properties)
         {
@@ -313,28 +321,29 @@ namespace AssemblyCSharp
 			}
 		}
 
-		public void onUserPaused(string a, bool b, string c)
+		public void onUserPaused(String locid, Boolean isLobby, String username)
 		{
+			Log("onUserPaused");
 		}
-		
-		public void onUserResumed(string a, bool b, string c)
+				
+		public void onUserResumed(String locid, Boolean isLobby, String username)
 		{
+			Log("onUserResumed");
 		}
-		
-		public void onGameStarted(string a, string b, string c)
+				
+		public void onGameStarted(string sender, string roomId, string nextTurn)
 		{
+			Log("onGameStarted");
 		}
-		
-		public void onGameStopped(string a, string b)
+				
+		public void onGameStopped(string sender, string roomId)
 		{
+			Log("onGameStopped");
 		}
 
-		public void onSendPrivateUpdateDone(byte res)
+		public void onNextTurnRequest (string lastTurn)
 		{
-		}
-
-		public void onPrivateUpdateReceived(string a, byte[] b, bool c)
-		{
+			Log("onNextTurnRequest");
 		}
 	}
 }
